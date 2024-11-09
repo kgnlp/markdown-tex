@@ -1,0 +1,25 @@
+[project]
+name = "markdown_tex"
+version = "0.8.0"
+description = "A custom formatter for SuperFences that displays LuaTeX as SVGs within markdown"
+authors = [
+  { name = "kgnlp", email = "7914956+kgnlp@users.noreply.github.com" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Environment :: Plugins",
+    "Framework :: MkDocs",
+    "Topic :: Documentation",
+    "Topic :: Text Processing :: Markup :: Markdown",
+    "Topic :: Text Processing :: Markup :: LaTeX",
+    "Topic :: Text Processing :: Markup :: HTML",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+  "pymdown-extensions"
+]
+
+[project.urls]
+source = "https://github.com/kgnlp/markdown-tex"
