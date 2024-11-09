@@ -1,5 +1,4 @@
 import subprocess
-from subprocess import CalledProcessError
 import re
 from typing import Any, Dict
 import sys
@@ -84,6 +83,6 @@ def formatter(
     """
     try:
         return _compile_tex(source, css_class)
-    except CalledProcessError as error:
+    except Exception as error:
         print(error, file=sys.stderr)
         return source
